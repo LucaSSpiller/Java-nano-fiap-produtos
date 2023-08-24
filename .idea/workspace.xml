@@ -5,14 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fafc6398-2c51-41c9-9fb4-3ed369a9f2cd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/view/CategoriaView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/view/Opcao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/view/OpcaoView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/repository/CategoriaCollectionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/repository/CategoriaCollectionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/repository/ProdutoCollectionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/repository/ProdutoCollectionRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2UNr1HS7KvmM42WUngZYVJLZElD" />
@@ -25,9 +47,30 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "onboarding.tips.debug.path": "C:/Users/logonrmlocal/Desktop/proj_nano_java_development/nano-fiap-produtos/src/main/java/br/com/fiap/produtos/Main.java"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.fiap.produtos.Main" />
+      <module name="nano-fiap-produtos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.fiap.produtos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,15 +82,27 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/fiap/produtos/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

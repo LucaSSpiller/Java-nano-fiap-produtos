@@ -1,19 +1,53 @@
 package br.com.fiap.produtos;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
+import br.com.fiap.produtos.model.Categoria;
+import br.com.fiap.produtos.model.Produto;
+import br.com.fiap.produtos.repository.CategoriaCollectionRepository;
+import br.com.fiap.produtos.repository.ProdutoCollectionRepository;
+import br.com.fiap.produtos.view.CategoriaView;
+import br.com.fiap.produtos.view.Opcao;
+import br.com.fiap.produtos.view.OpcaoView;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        Opcao opcao = null;
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        do{
+            opcao = OpcaoView.select();
+            switch(opcao){
+                case CADASTRAR_CATEGORIA -> cadastrarCategoria();
+                case CADASTRAR_PRODUTO -> cadastrarProduto();
+                case CONSULTAR_PRODUTO_POR_ID -> consultarProdutoPorId();
+                case CONSULTAR_PRODUTO_POR_CATEGORIA -> consultarProdutoPorCategoria();
+                case ENCERRAR_SISTEMA -> encerrarSistema();
+            }
+        }while (opcao != Opcao.ENCERRAR_SISTEMA);
+
+
+    }
+
+    private static void encerrarSistema() {
+        System.exit(0);
+    }
+
+    private static void consultarProdutoPorCategoria() {
+    }
+
+    private static void consultarProdutoPorId() {
+    }
+
+    private static void cadastrarProduto() {
+    }
+
+    private static void cadastrarCategoria() {
+        CategoriaView view = new CategoriaView();
+        Categoria categoria = view.form();
+        CategoriaCollectionRepository.save(categoria);
+        view.sucesso(categoria);
     }
 }
